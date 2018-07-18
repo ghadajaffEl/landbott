@@ -1,0 +1,155 @@
+body
+{	background-color:#281e65;
+	   /* background-image: linear-gradient(rgba(86, 74, 171,.7), rgba(86, 74, 171, 0) 100%)!important;
+*/}
+.animate{
+	background: linear-gradient(270deg, #87196f, #b45ba1, #f50cc3, #d784c5);
+background-size: 800% 800%;
+
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+a,h1
+{
+color: white;
+}
+.top{
+
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width:100%;
+	z-index: 50;
+
+}
+
+a{	
+font-size: 20px;
+text-decoration:none; 
+}
+
+.sign-up:hover
+{
+	background-color:rgb(188, 0, 68);
+}
+.sign-up
+{
+	border: 1px solid white;
+	border-radius: 30px;
+	padding: 15px;
+
+}
+.login
+{
+margin-right: 30px;
+}
+.login:hover{
+border: 2px solid #281e65;
+background-color:#90719E ;
+border-radius: 30px;
+padding: 15px;
+}
+
+.menu
+{
+	margin-top: 15px;
+	margin-right: 20px;
+}
+.message {
+
+	background-color: white;
+	color: #281e65;
+	border-radius: 30px;
+	display: inline-block;
+	padding: 15px;
+}
+.helloumi{
+	width: 350px;
+	border-radius: 30px;
+}
+
+button{
+color: white;
+background-color:rgb(188, 0, 68);
+border: 1px solid red;
+width: 200px;
+height: 50px;
+}
+
+button:hover
+{
+background-color:  rgb(255,17,199);
+}
+
+
+.option
+
+{	font-size: 10px;
+	color: white;
+}
+.chat a:hover{
+	/*border: 2px solid white;*/
+	}
+.by-clicking
+	{
+		font-size: 15px;
+		color: white;
+	}
+div.footer>p{
+	color: #281e65;
+}
+a.learn-more{
+color: #281e65;
+font-size: 15px;
+text-decoration: underline;
+
+}
+.blue
+{
+	width:100px;
+}
+.footer{
+	background-color: white;
+	width: 40vw;
+	margin-bottom: 50px;
+	position: sticky;
+	bottom: 5px;
+	z-index: -1;
+
+}
+.policy
+{
+	font-size: 15px;
+	text-decoration: underline;
+
+}
+.chat{
+	display: flex;
+	flex-direction: column;
+	margin-left: 25vw;
+
+}
+.messages{
+	margin-top: 5vw;
+}
+.blue{
+	float: left;
+}
+
